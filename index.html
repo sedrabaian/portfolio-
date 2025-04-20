@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sedra Baian Portfolio</title>
+  
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="text-gray-800">
+  <!-- =========================== NAVBAR =========================== -->
+  <nav class="bg-white backdrop-blur p-4 text-lg fixed top-0 left-0 w-full z-50 shadow-sm">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-6">
+      <div class="text-2xl font-bold text-blue-600 md:absolute md:left-6">Sedra B.</div>
+      <div class="hidden md:flex space-x-12 mx-auto text-gray-700">
+        <a href="#home" class="hover:text-blue-500 transition">Home</a>
+        <a href="#skills" class="hover:text-blue-500 transition">Skills</a>
+        <a href="#experience" class="hover:text-blue-500 transition">Experience</a>
+        <a href="#contact" class="hover:text-blue-500 transition">Contact</a>
+      </div>
+      <button id="menu-btn" class="md:hidden text-blue-600 focus:outline-none">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+    <div id="mobile-menu" class="md:hidden hidden px-6 pt-4 pb-6 space-y-4 bg-white mt-2 rounded-lg shadow">
+      <a href="#home" class="block text-gray-700 hover:text-blue-500">Home</a>
+      <a href="#skills" class="block text-gray-700 hover:text-blue-500">Skills</a>
+      <a href="#experience" class="block text-gray-700 hover:text-blue-500">Experience</a>
+      <a href="#contact" class="block text-gray-700 hover:text-blue-500">Contact</a>
+    </div>
+  </nav>
+<script>
+  document.getElementById('menu-btn').addEventListener('click',()=>document.getElementById('mobile-menu').classList.toggle('hidden'));
+</script>
+<!-- =========================== HERO =========================== -->
+<section id="home" class="flex flex-col md:flex-row items-center justify-between px-6 md:px-24 py-32 min-h-screen">
+  <div class="max-w-2xl">
+    <h1 class="text-4xl md:text-5xl font-bold mb-6 whitespace-nowrap text-gray-900">
+      I am&nbsp;<span id="typed-text" class="text-blue-600"></span>
+    </h1>
+    <p class="text-xl md:text-2xl mb-10 leading-relaxed text-gray-700">I am a results‑driven professional with a strong background in sales, insurance advising, e‑commerce, and interpretation. I excel at building lasting relationships, analyzing market trends, and communicating effectively with clients from diverse backgrounds.</p>
+    <div class="flex flex-wrap gap-6">
+      <a href="SEDRA BAIAN CV.pdf" target="_blank" class="bg-blue-600 px-6 py-3 rounded-lg text-white font-semibold hover:bg-blue-700 shadow">Download Resume</a>
+      <a href="#contact" class="border border-blue-600 px-6 py-3 rounded-lg text-blue-600 font-semibold hover:bg-blue-50">Contact Me</a>
+    </div>
+  </div>
+  <div class="mt-14 md:mt-0"><img src="image1.jpg" alt="Profile" class="rounded-full border-4 border-blue-600 shadow-lg w-98 h-98 object-cover"/></div>
+</section>
+
+<!-- =========================== STATS =========================== -->
+<div class="flex flex-wrap justify-around bg-blue-50 text-gray-800 py-10">
+  <div class="text-center m-4">
+    <h2 class="text-3xl font-bold text-blue-600">1+</h2>
+    <p class="text-sm">Years of Professional Experience</p>
+  </div>
+  <div class="text-center m-4">
+    <h2 class="text-3xl font-bold text-blue-600">10+</h2>
+    <p class="text-sm">Projects Across Multiple Fields</p>
+  </div>
+  <div class="text-center m-4">
+    <h2 class="text-3xl font-bold text-blue-600">4</h2>
+    <p class="text-sm">Languages Spoken</p>
+  </div>
+  <div class="text-center m-4">
+    <h2 class="text-3xl font-bold text-blue-600">19+</h2>
+    <p class="text-sm">Certifications Earned</p>
+  </div>
+</div>
+<p class="text-center text-xl text-gray-600 mt-4 px-4">
+  Blending experience in sales, insurance, tech, and interpretation to bring a unique perspective to every project.
+</p>
+
+<!-- =========================== ABOUT / EXPERTISE =========================== -->
+<section id="about" class="px-6 md:px-16 py-20 bg-white/80">
+  <div class="max-w-7xl mx-auto">
+    <h2 class="text-4xl font-extrabold mb-12 text-center text-blue-600 tracking-widest">EXPERTISE</h2>
+
+    <!-- Core Skills -->
+    <div class="mb-16">
+      <h3 class="text-2xl font-semibold mb-8 text-center text-gray-800">Core Skills</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="border border-blue-600 rounded-xl p-6 text-center">Data Analysis &amp; Visualization</div>
+        <div class="border border-blue-600 rounded-xl p-6 text-center">Client Engagement &amp; Communication</div>
+        <div class="border border-blue-600 rounded-xl p-6 text-center">Sales &amp; Negotiation Strategies</div>
+        <div class="border border-blue-600 rounded-xl p-6 text-center">Multilingual: Arabic, English, Turkish, Spanish</div>
+      </div>
+    </div>
+
+    <!-- Career Goals -->
+    <div class="mb-16 text-center">
+      <h3 class="text-xl font-semibold mb-4 text-gray-800">Career Goals</h3>
+      <p class="leading-relaxed text-gray-600 max-w-3xl mx-auto">Currently focused on expanding my expertise in business analytics, data‑driven decision‑making, and client relationship management to make meaningful contributions in tech‑driven industries.</p>
+    </div>
+
+    <!-- Mission Statement -->
+    <div class="text-center">
+      <h3 class="text-xl font-semibold mb-4 text-gray-800">Personal Mission</h3>
+      <p class="leading-relaxed text-gray-600 max-w-3xl mx-auto">My mission is to bridge the gap between technology and people by leveraging data insights and clear communication to deliver real value and positive impact.</p>
+    </div>
+  </div>
+</section>
+
+<!-- =========================== SKILLS =========================== -->
+<section id="skills" class="py-20 bg-blue-50">
+  <div class="max-w-6xl mx-auto text-center px-6">
+    <h2 class="text-4xl font-extrabold mb-12 text-blue-600 tracking-widest">Skills</h2>
+
+    <!-- Technical Skills -->
+    <div class="mb-12">
+      <h3 class="text-2xl font-semibold mb-4 text-gray-800">Technical Skills</h3>
+      <div class="flex flex-wrap justify-center gap-4">
+        <span class="px-4 py-2 bg-blue-600 text-white rounded-full">Python (Pandas, Matplotlib, Seaborn)</span>
+        <span class="px-4 py-2 bg-blue-600 text-white rounded-full">Java</span>
+        <span class="px-4 py-2 bg-blue-600 text-white rounded-full">Tableau</span>
+        <span class="px-4 py-2 bg-blue-600 text-white rounded-full">Inferential Statistics</span>
+        <span class="px-4 py-2 bg-blue-600 text-white rounded-full">Statistical Analysis</span>
+        <span class="px-4 py-2 bg-blue-600 text-white rounded-full">Data Analysis</span>
+        <span class="px-4 py-2 bg-blue-600 text-white rounded-full">.NET Fundamentals</span>
+      </div>
+    </div>
+
+    <!-- Professional Skills -->
+    <div class="mb-12">
+      <h3 class="text-2xl font-semibold mb-4 text-gray-800">Professional Skills</h3>
+      <div class="flex flex-wrap justify-center gap-4">
+        <span class="px-4 py-2 bg-blue-600 text-white rounded-full">Relationship Building</span>
+        <span class="px-4 py-2 bg-blue-600 text-white rounded-full">Account Management</span>
+        <span class="px-4 py-2 bg-blue-600 text-white rounded-full">Client Engagement</span>
+        <span class="px-4 py-2 bg-blue-600 text-white rounded-full">Lead Development</span>
+        <span class="px-4 py-2 bg-blue-600 text-white rounded-full">Negotiation &amp; Communication</span>
+        <span class="px-4 py-2 bg-blue-600 text-white rounded-full">Sales Strategies</span>
+        <span class="px-4 py-2 bg-blue-600 text-white rounded-full">Time Management</span>
+        <span class="px-4 py-2 bg-blue-600 text-white rounded-full">Resilience &amp; Tenacity</span>
+      </div>
+    </div>
+
+    <!-- Languages -->
+    <div>
+      <h3 class="text-2xl font-semibold mb-4 text-gray-800">Languages</h3>
+      <div class="flex flex-wrap justify-center gap-4">
+        <span class="px-4 py-2 bg-blue-600 text-white rounded-full">Arabic (Native)</span>
+        <span class="px-4 py-2 bg-blue-600 text-white rounded-full">English (Native)</span>
+        <span class="px-4 py-2 bg-blue-600 text-white rounded-full">Turkish (Advanced)</span>
+        <span class="px-4 py-2 bg-blue-600 text-white rounded-full">Spanish (Intermediate)</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================== PROJECTS =========================== -->
+<section id="projects" class="px-4 sm:px-8 md:px-16 py-20 bg-white/80">
+  <div class="max-w-7xl mx-auto">
+    <div class="flex items-center justify-center mb-12 space-x-4">
+      <img src="project-icon.png" alt="Projects Icon" class="w-10 h-10">
+      <h2 class="text-4xl font-extrabold text-blue-600 tracking-widest">Projects</h2>
+    </div>
+
+    <!-- Scrollable Container -->
+    <div class="flex overflow-x-auto space-x-6 pb-4 scroll-smooth scrollbar-hide snap-x snap-mandatory">
+      <!-- Project Card 1 -->
+      <div class="min-w-[300px] max-w-sm sm:min-w-[350px] sm:max-w-sm bg-white border border-gray-200 text-gray-800 p-6 rounded-xl shadow-sm snap-start flex-shrink-0">
+        <h3 class="text-2xl font-semibold mb-2">Amazon Review Sentiment Analysis</h3>
+        <p class="text-gray-600 text-sm mb-4">
+          A data‑driven project using Python (Pandas, Matplotlib, Seaborn) to analyze sentiment across thousands of Amazon reviews.
+        </p>
+        <a href="https://github.com/sedrabaian/Amazon-Product-Reviews-Analysis" target="_blank" class="text-blue-500 hover:underline text-sm">View GitHub Repository</a>
+      </div>
+
+      <!-- Project Card 2 -->
+      <div class="min-w-[300px] max-w-sm sm:min-w-[350px] sm:max-w-sm bg-white border border-gray-200 text-gray-800 p-6 rounded-xl shadow-sm snap-start flex-shrink-0">
+        <h3 class="text-2xl font-semibold mb-2">Electricity Access KPI Dashboard</h3>
+        <p class="text-gray-600 text-sm mb-4">
+          Developed a KPI dashboard to visualize electricity access trends worldwide using Tableau and public data. The project highlights regional disparities and progress toward global energy goals.
+        </p>
+        <a href="https://github.com/sedrabaian/electricity-access-kpi-visualization" target="_blank" class="text-blue-500 hover:underline text-sm">View GitHub Repository</a>
+      </div>
+
+      <!-- Coming Soon Card -->
+      <div class="min-w-[300px] max-w-sm sm:min-w-[350px] sm:max-w-sm bg-white border border-gray-200 text-gray-800 p-6 rounded-xl shadow-sm snap-start flex-shrink-0 flex items-center justify-center">
+        <p class="text-blue-400 text-xl font-medium">More Projects Coming Soon...</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================== EXPERIENCE =========================== -->
+<section id="experience" class="px-6 md:px-16 py-20 bg-blue-50">
+  <div class="max-w-7xl mx-auto">
+    <h2 class="text-4xl font-extrabold mb-12 text-center text-blue-600 tracking-widest">Professional Experience</h2>
+
+    <div class="flex overflow-x-auto space-x-6 pb-4 scroll-smooth scrollbar-hide">
+      <!-- Experience Card Template -->
+      <template id="exp-card-template">
+        <div class="w-[850px] md:w-[850px] h-auto bg-white border-l-8 rounded-xl p-8 shadow-sm flex-shrink-0 transition-all duration-300">
+          <h3 class="text-2xl font-bold text-gray-900 mb-1"></h3>
+          <p class="text-sm text-blue-400 mb-4"></p>
+          <p class="text-gray-700 leading-relaxed max-w-prose text-justify"></p>
+        </div>
+      </template>
+      <!-- Cards -->
+      <div class="w-[850px] md:w-[850px] h-auto bg-white border-l-8 border-blue-400 rounded-xl p-8 shadow-sm hover:shadow-md flex-shrink-0">
+        <h3 class="text-2xl font-bold text-gray-900 mb-1">Benefit Advisor @ American Income Life</h3>
+        <p class="text-sm text-blue-400 mb-4">2024 ‑ Present</p>
+        <p class="text-gray-700 leading-relaxed max-w-prose text-justify">As a Benefit Advisor at American Income Life, I educated clients on various insurance options and comprehensive benefit packages. My role involved helping families secure meaningful coverage tailored to their needs while fostering strong, trust‑based relationships. Operating in a high‑performance environment, I consistently ensured client satisfaction and policy alignment through effective communication and client‑focused solutions.</p>
+      </div>
+
+      <div class="w-[850px] md:w-[850px] h-auto bg-white border-l-8 border-blue-400 rounded-xl p-8 shadow-sm hover:shadow-md flex-shrink-0">
+        <h3 class="text-2xl font-bold text-gray-900 mb-1">Interpreter @ Lema Dental Clinic</h3>
+        <p class="text-sm text-blue-400 mb-4">2023 ‑ 2024</p>
+        <p class="text-gray-700 leading-relaxed max-w-prose text-justify">At Lema Dental Clinic, I bridged communication gaps between patients and healthcare providers by offering accurate and compassionate language interpretation services. I played a critical role in creating a comfortable and inclusive environment for patients from diverse backgrounds while ensuring clarity and understanding in all medical interactions within a fast‑paced setting.</p>
+      </div>
+
+      <div class="w-[850px] md:w-[850px] h-auto bg-white border-l-8 border-blue-400 rounded-xl p-8 shadow-sm hover:shadow-md flex-shrink-0">
+        <h3 class="text-2xl font-bold text-gray-900 mb-1">E‑Commerce Specialist @ eBay</h3>
+        <p class="text-sm text-blue-400 mb-2">2022 ‑ 2023</p>
+        <p class="text-gray-700 leading-relaxed max-w-prose text-justify">Optimized product listings and implemented analytics‑based marketing strategies to boost visibility and sales across online platforms. Managed performance metrics, created promotional strategies, and improved customer satisfaction through data‑driven improvements.</p>
+      </div>
+
+      <div class="w-[850px] md:w-[850px] h-auto bg-white border-l-8 border-blue-400 rounded-xl p-8 shadow-sm hover:shadow-md flex-shrink-0">
+        <h3 class="text-2xl font-bold text-gray-900 mb-1">Print‑on‑Demand Designer @ Redbubble</h3>
+        <p class="text-sm text-blue-400 mb-2">2021 ‑ 2022</p>
+        <p class="text-gray-700 leading-relaxed max-w-prose text-justify">Designed and launched digital artwork tailored to trending topics and seasonal themes. Used customer analytics to refine design choices and increase online visibility, resulting in a consistent stream of passive income through creative e‑commerce.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================== CONTACT =========================== -->
+<section id="contact" class="py-20 bg-white/80">
+  <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start px-6">
+    <!-- Contact Info -->
+    <div class="text-gray-800">
+      <h2 class="text-3xl font-bold mb-4">Let's Connect</h2>
+      <p class="mb-6 text-gray-600">Have a project in mind or just want to say hi? Reach out and I’ll get back to you as soon as I can.</p>
+
+      <h3 class="text-xl font-semibold mb-2">E‑mail</h3>
+      <p class="mb-6 text-blue-600">sedrabayan2@gmail.com</p>
+
+      <div class="flex space-x-4">
+        <a href="https://www.linkedin.com/in/sedrabaian" target="_blank" aria-label="LinkedIn" class="text-gray-700 hover:text-blue-500">
+          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 0H5C2.239 0 0 2.239 0 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5V5c0-2.761-2.239-5-5-5zM8 19H5V9h3v10zm-1.5-11.268C5.534 7.732 4.75 6.948 4.75 6s.784-1.732 1.75-1.732S8.25 5.052 8.25 6s-.784 1.732-1.75 1.732zM20 19h-3v-5.604c0-3.368-4-3.115-4 0V19h-3V9h3v1.435c1.396-2.586 7-2.777 7 2.476V19z"/></svg>
+        </a>
+        <a href="https://github.com/sedrabaian" target="_blank" aria-label="GitHub" class="text-gray-700 hover:text-blue-500">
+          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297C5.373.297 0 5.67 0 12c0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577v-2.02c-3.338.725-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.757-1.333-1.757-1.089-.745.083-.729.083-.729 1.205.085 1.84 1.236 1.84 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.775.418-1.305.762-1.605C6.797 17.67 4 16.64 4 12.03c0-1.31.469-2.381 1.236-3.221-.124-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.301 1.23a11.52 11.52 0 013.003-.404c1.02.005 2.045.138 3.003.404 2.291-1.553 3.297-1.23 3.297-1.23.653 1.653.242 2.873.118 3.176.77.84 1.234 1.911 1.234 3.221 0 4.609-2.807 5.624-5.479 5.921.43.371.823 1.102.823 2.222v3.293c0 .319.218.694.825.576C20.565 21.8 24 17.304 24 12c0-6.33-5.373-11.703-12-11.703z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="bg-blue-50 p-8 rounded-lg shadow-sm">
+      <h2 class="text-2xl font-bold mb-6 text-gray-800">Contact Form</h2>
+      <form>
+        <input type="text" placeholder="Your name" class="w-full mb-4 p-3 bg-transparent border-b border-gray-400 text-gray-800 placeholder-gray-500 focus:outline-none focus:border-blue-500">
+        <input type="text" placeholder="Your phone or e-mail" class="w-full mb-4 p-3 bg-transparent border-b border-gray-400 text-gray-800 placeholder-gray-500 focus:outline-none focus:border-blue-500">
+        <textarea placeholder="Message" class="w-full mb-6 p-3 bg-transparent border-b border-gray-400 text-gray-800 placeholder-gray-500 focus:outline-none focus:border-blue-500" rows="4"></textarea>
+        <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition duration-200">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- =========================== TYPING EFFECT SCRIPT =========================== -->
+<script>
+  const roles = ["Data Analyst", "Interpreter", "Designer", "E‑commerce Specialist"];
+  const typedText = document.getElementById("typed-text");
+
+  let roleIndex = 0;
+  let charIndex = 0;
+  let isDeleting = false;
+
+  function typeEffect() {
+    const currentRole = roles[roleIndex];
+
+    if (isDeleting) {
+      typedText.textContent = currentRole.substring(0, charIndex--);
+      if (charIndex < 0) {
+        isDeleting = false;
+        roleIndex = (roleIndex + 1) % roles.length;
+      }
+    } else {
+      typedText.textContent = currentRole.substring(0, charIndex++);
+      if (charIndex > currentRole.length) {
+        isDeleting = true;
+        setTimeout(typeEffect, 1200);
+        return;
+      }
+    }
+    setTimeout(typeEffect, isDeleting ? 50 : 100);
+  }
+  document.addEventListener("DOMContentLoaded", typeEffect);
+</script>
+</body>
+</html>

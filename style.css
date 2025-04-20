@@ -1,0 +1,17 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background: linear-gradient(to bottom, #F0F9FF 0%, #FFFFFF 100%);
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
